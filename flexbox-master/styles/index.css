@@ -1,0 +1,146 @@
+
+
+.flex-example {
+    height: 50vh; 
+    width: 40%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.card {
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 15px;
+    min-width: 100px;
+    min-height: 200px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 180px;
+
+}
+.second {
+    background-color: darkgrey;
+}
+
+.large {
+    flex-wrap: wrap;
+    min-height: 60%;
+}
+
+.flex-example1 {
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aquamarine;
+
+}
+.container {
+    width: 100%;
+    min-height: 50%;
+    padding: 25px 0;
+    display: flex;
+    background-color: yellow;
+    align-items: flex-end;
+}
+
+.container2 {
+    width: 100%;
+    min-height: 50%;
+    padding: 25px 0;
+    display: flex;
+    background-color: yellow;
+    justify-content:center; }
+
+    .container3 {
+
+        width: 100%;
+        min-height: 50%;
+        padding: 25px 0;
+        display: flex;
+        background-color: yellow;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .container4 {
+        width: 100%;
+        min-height: 50%;
+        padding: 25px 0;
+        display: flex;
+        background-color: yellow;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+        .container5 {
+            width: 100%;
+            min-height: 50%;
+            padding: 25px 0;
+            display: flex;
+            background-color: yellow;
+            justify-content: space-around;
+    
+        
+    }
+    .container6 {
+        width: 100%;
+        min-height: 50%;
+        padding: 25px 0;
+        display: flex;
+        background-color: yellow;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card1 {
+        background-color: red;
+        border: 1px solid black;
+        border-radius: 15px;
+        min-width: 100px;
+        min-height: 200px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 180px;
+        justify-content: left;
+        align-self: flex-end;
+        
+    }
+
+    .card2 {
+        background-color: red;
+        border: 1px solid black;
+        border-radius: 15px;
+        min-width: 100px;
+        min-height: 150px;
+        display: flex;
+        align-items: center;
+        flex-basis: 180px;
+        justify-content: left;
+        align-self: center;
+        margin: 20px;
+        justify-content: center;
+    }
+
+
+    .card3 {        background-color: red;
+        border: 1px solid black;
+        border-radius: 15px;
+        min-width: 100px;
+        min-height: 200px;
+        display: flex;
+        align-items: center;
+        flex-basis: 180px;
+        justify-content: left;
+        align-self: center;
+        margin: 20px;
+        justify-content: center;
+    flex-grow: 0.5; }
+
+    section {display: inline-bloc;}
